@@ -1,5 +1,5 @@
 def cipher():
-        a = input("What cipher would you like to use? \n 1. Caesar \n 2. Substition \n 3. Transposition \n 4. Atbash \n")
+        a = input("Please enter the number associated with the type of cipher you would like to use. \n 1. Caesar \n 2. Substition \n 3. Transposition \n 4. Atbash \n")
         if a == "1":
             caesar()
         elif a == "2":
@@ -119,3 +119,4 @@ def atbash():
     print(encrypted)
 
 cipher()
+

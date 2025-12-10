@@ -118,5 +118,6 @@ def atbash():
             encrypted += chr(26 - (ord(item) - 96) + 97)
     print(encrypted)
 
-cipher()
+#cipher_dictionary()
+#cipher()
 
